@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(#f8f8f8);
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  
+
+.card {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+  margin-left: 10px;
+}
+.card .poster {
+  position: relative;
+  overflow: hidden;
+}
+.card .poster::before {
+  content: "";
+  position: absolute;
+  bottom: -100px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #292929 30%, transparent);
+  transition: 0.5s;
+  z-index: 1;
+}
+.card:hover .poster::before {
+  bottom: 0px;
+}
+.card .poster img {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.card:hover .poster img {
+  transform: translateY(-8px);
+  filter: blur(5px);
+}
+.card:hover .details .logo {
+  transform: translateY(-1px);
+  transform: 0.5s;
+}
+
+.card .details {
+  position: absolute;
+  width: 100%;
+  bottom: -260px;
+  left: 0;
+  padding: 30px;
+  z-index: 2;
+  transform: 0.5s;
+}
+.card:hover .details {
+  bottom: 10px;
+}
+.card .details .logo {
+  max-width: 250px;
+}
+
+.card .details h3 {
+  font-size: 14px;
+  color: white;
+}
+.card .details .rating {
+  position: relative;
+  padding: 5px 0;
+}
+.card .details .rating .fa-star {
+  color: #f7f406;
+  font-size: 1em;
+}
+.card .details .rating span {
+  color: white;
+}
+.card .details .tags {
+  position: relative;
+  margin-top: 5px;
+}
+.card .details .tags span {
+  padding: 2px 5px;
+  color: white;
+  background-color: #bbb9b93f;
+  border-radius: 10px;
+}
+.card .details .tags span:nth-child(2) {
+  background-color: #e614143f;
+}
+.card .details .tags span:nth-child(3) {
+  background-color: #0d11503f;
+}
+
+.card .details .info {
+  color: white;
+  margin-top: 20px;
+}
+
+.card .details .cast {
+  position: relative;
+}
+.card .details .cast h4 {
+  color: #f8f8f8;
+  margin-top: 10px;
+}
+
+.card .details .cast ul {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  margin-top: 00px;
+}
+.card .details .cast ul li {
+  list-style: none;
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.card .details .cast ul li img {
+  max-width: 100%;
+  transform: translateY(0px);
+  filter: none;
+}
+
