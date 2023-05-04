@@ -20,6 +20,20 @@ header {
     z-index: 1; 
 }
 
+.fixo-fluid{
+    align-items: stretch;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.904);
+    display: flex;
+    height: 3.75rem;
+    justify-content: space-between;
+    left: 0;
+    min-width: 20rem;
+    position: fixed;
+    right: 0;
+    z-index: 100;
+}
+
 .logo {
     margin-left: 20px;
     font-size: 40px;
@@ -29,6 +43,10 @@ header {
 .logo a{
     color: white;
     text-decoration: none;
+}
+
+.logo :hover{
+    color: #f4a273cf;
 }
 
 .logo img {
@@ -43,14 +61,18 @@ header {
 
 .homepage a {
     margin: 0 10px;
-    font-size: 20px;
-    padding: 5px;
+    font-size: 15px;
+    padding: 8px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.672);
     text-decoration: none;
 }
+
+.homepage :hover{
+    background-color: #f4a273cf;
+}
+
 .imagemain {
     position: absolute;
     top: 0;
@@ -60,32 +82,70 @@ header {
 
 .texto-meio{
     position: absolute;
-    top: 420%;
+    top: 370px;
     left: 33%;
     text-align: center;
     font-size: 25px;
     color: white;
 }
 
+.texto-assista h1{
+    font-size: 50px;
+}
+
+ .clique-aqui {
+  align-items: center;
+  background-image: linear-gradient(144deg,#e1c888, #f4a273 50%,#f2545f);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(204, 21, 27, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
 .clique-aqui a{
-    top: 200%;
-    text-align: center;
-    font-size: 20px;
-    padding: 5px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.672);
-    color: rgb(255, 255, 255);
     text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
-.clique-aqui :hover{
-    background-color: rgba(118, 118, 118, 0.672);
+.clique-aqui:active,
+.clique-aqui:hover {
+  outline: 0;
 }
 
-.homepage :hover{
-    background-color: rgba(118, 118, 118, 0.672);
+.clique-aqui span {
+  background-color: rgb(45, 5, 5);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
 }
+
+.clique-aqui:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .clique-aqui {
+    font-size: 24px;
+    min-width: 196px;
+  }
+} 
 
 .aparelhos-compativeis{
     text-align: center;
@@ -100,6 +160,10 @@ header {
     justify-content: space-evenly;
 }
 
+.icons-g :hover{
+    color: rgb(45, 5, 5);
+}
+
 .icon-p{
     padding: 10px;
     display: flex;
@@ -108,9 +172,6 @@ header {
     justify-content: space-evenly;
 }
 
-.icons-g :hover{
-    color: rgb(0, 0, 0);
-}
 
 .icon-p .bi.bi-apple:hover{
     color: rgb(190, 190, 190);
@@ -121,7 +182,7 @@ header {
 }
 
 .icon-p .bi.bi-xbox:hover{
-    color: rgb(1, 139, 65);
+    color: rgb(1, 139, 65)
 }
 
 .icon-p .bi.bi-playstation:hover{
