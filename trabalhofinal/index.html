@@ -13,7 +13,7 @@
     <script src="index.js" defer></script>
     <title>Document</title>
 </head>
-<body>
+<body id="body">
    
   <div class="container">
     <div class="row">
@@ -27,11 +27,11 @@
                     <label for="email" class="form-label">Digite seu email</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="password" name="password" class="form-control inputs required" placeholder="Digite sua senha" >
+                    <input type="password" name="password" class="form-control inputs required" placeholder="Digite sua senha" oninput="senhaValidate()">
                     <span class="span-required">Senha incorreta</span>
                     <label for="senha" class="form-label">Digite sua senha</label>
                 </div>
-                <button type="submit" class="btn btn-warning  meubotao" onclick=" loginValidate()">Entrar</button>
+                <button type="button" class="btn btn-warning  meubotao" onclick=" loginValidate()">Entrar</button>
             </form>
         </div>
     </div>
