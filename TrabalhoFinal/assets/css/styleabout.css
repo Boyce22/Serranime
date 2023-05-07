@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Heebo', sans-serif;
+}
+
+body {
+  min-height: 100%;
+  background: radial-gradient(at center top, rgba(41, 41, 41, 1.0), rgba(18, 20, 17, 1.0));
+  overflow-x: hidden;
+}
+
+.fixo-fluid {
+  align-items: stretch;
+  top: 0px;
+  background-color: rgb(26, 25, 25);
+  display: flex;
+  height: 3.75rem;
+  justify-content: space-between;
+  left: 0;
+  min-width: 20rem;
+  position: relative;
+  right: 0;
+  z-index: 100;
+}
+
+.text-main {
+  background: rgba(29, 29, 29, 0.5);
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  width: 79%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%);
+  color: aliceblue;
+}
+
+.text-main h2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 7vh;
+  padding-top: 4vh;
+}
+
+.text-main h3 {
+  padding-top: 22px;
+  width: 80%;
+  font-size: 4vh;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 10px;
+  box-shadow: #292929;
+  padding-bottom: 5.5vh;
+}
+
+.logo {
+  margin-left: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  font-size: 60%;
+}
+
+.logo :hover {
+  color: #f4a273cf;
+}
+
+.logo:hover {
+  color: #f4a273cf;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.image-main {
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+}
+
+.image-main img {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  left: 50%;
+  transform: translate(-50%);
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  background: rgba(29, 29, 29, 0.5);
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+}
+
+.text-final h2 {
+  color: azure;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5vh;
+  position: relative;
+}
+
+::-webkit-scrollbar-track {
+  border: 0.2px solid rgb(107, 106, 106);
+
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  background-color: #fffafa;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5c5c5c;
+  border-radius: 10px;
+}

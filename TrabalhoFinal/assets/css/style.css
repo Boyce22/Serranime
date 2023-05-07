@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -10,7 +11,8 @@
 
 body {
   min-height: 100%;
-  background-color: #292929;
+  /* background: radial-gradient(at center top, rgba(41, 41, 41, 1.0), rgba(18, 20, 17, 1.0)); */
+  background: radial-gradient(at center top, rgba(42, 42, 42, 1.0), rgb(8, 8, 8));
   overflow-x: hidden;
 }
 
@@ -35,7 +37,6 @@ body {
 
 .movies {
   padding-top: 10vh;
-  padding-bottom: 15vh;
 }
 
 .fixo-fluid {
@@ -63,6 +64,8 @@ body {
   text-decoration: none;
   align-items: center;
   display: flex;
+  font-size: 60%;
+  font-family: 'Heebo', sans-serif;
 }
 
 .logo :hover {
@@ -399,10 +402,11 @@ body {
 .card .details .logoeightsix {
   max-width: 20%;
 }
+
 .card .details .logogreatpretender {
   max-width: 45%;
 }
- 
+
 
 .card .details h3 {
   font-size: 14px;
@@ -429,7 +433,7 @@ body {
 }
 
 .card .details .tags span {
-  padding: 2px 5px;
+  padding: 2px 3px;
   color: white;
   background-color: #bbb9b93f;
   border-radius: 10px;
@@ -457,6 +461,22 @@ body {
 
 .card .details .tags .drama {
   background-color: #0d11503f;
+}
+
+.card .details .tags .school {
+  background-color: #a15d033f;
+}
+
+.card .details .tags .romance {
+  background-color: #e453f13f;
+}
+
+.card .details .tags .supernatural {
+  background-color: #0000003f;
+}
+
+.card .details .tags .militar {
+  background-color: #102911ee;
 }
 
 .card .details .info {
@@ -545,15 +565,13 @@ body {
 .container {
   position: relative;
   padding: 1vh;
-
   max-width: 90%;
   margin: 0 auto;
-  
 }
 
 .gallery-wrapper {
   overflow-x: auto;
-  
+
 }
 
 .arrow-left,
@@ -586,13 +604,12 @@ body {
   display: flex;
   flex-flow: row nowrap;
   gap: 15px;
-  
+
 }
 
 .gallery-wrapper .gallery .anime .name {
   position: relative;
 }
-
 
 .gallery-wrapper .gallery img:hover {
   filter: none;
@@ -610,11 +627,6 @@ body {
   height: 200px;
   flex-shrink: 0;
   transition: all 600ms ease-in-out;
-  opacity: 0.5;
-}
-
-.current-item-1 {
-  opacity: 1;
 }
 
 .item-2 {
@@ -625,11 +637,6 @@ body {
   height: 200px;
   flex-shrink: 0;
   transition: all 600ms ease-in-out;
-  opacity: 0.5;
-}
-
-.current-item-2 {
-  opacity: 1;
 }
 
 .item-3 {
@@ -640,11 +647,26 @@ body {
   height: 200px;
   flex-shrink: 0;
   transition: all 600ms ease-in-out;
-  opacity: 0.5;
 }
 
-.current-item-3 {
-  opacity: 1;
+.item-4 {
+  max-width: 320px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  height: 200px;
+  flex-shrink: 0;
+  transition: all 600ms ease-in-out;
+}
+
+.item-5 {
+  max-width: 320px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  height: 200px;
+  flex-shrink: 0;
+  transition: all 600ms ease-in-out;
 }
 
 /* This is from w3schools */
@@ -657,6 +679,62 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .gallery-wrapper {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.gender {
+  color: white;
+  margin-left: 5.5%;
+}
+
+.footer {
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  bottom: 10;
+  font-weight: bolder;
+  font-style: uper;
+}
+
+
+.footer>* {
+  flex: 1 100%;
+}
+
+.links {
+  text-align: center;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 32%;
+  margin-right: 32%;
+}
+
+.links a {
+  color: #f2545f;
+  text-decoration: none;
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+  justify-content: space-between;
+}
+
+.legallinks {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  color: #f2545f;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legallinks {
+    margin-left: auto;
+  }
 }
