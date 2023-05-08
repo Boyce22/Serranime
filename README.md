@@ -8,6 +8,7 @@
 <li>Botões funcionais</li>
 <li>Login funcional</li>
 <li>Recomendações personalizadas</li></ul>
+<li>Mostrar o video</li></ul>
 
 <h2>Colaboradores</h2>
 
