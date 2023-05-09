@@ -10,7 +10,7 @@
 <li>Recomendações personalizadas</li></ul>
 <li>Mostrar trailer dos animes</li></ul>
 
-<h2>Colaboradores</h2>
+<h2>Desenvolvedores</h2>
 
 <ul>
 <li>Ana Clara</li>
