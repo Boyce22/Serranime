@@ -1,32 +1,44 @@
+# SerraNime
 
-<h1>Descrição</h1>
+O SerraNime é um site desenvolvido com o objetivo de proporcionar a melhor experiência visual para os fãs de animes, em diversas plataformas. Nosso foco é oferecer um ambiente elegante e imersivo, onde os usuários possam desfrutar do vasto catálogo de animes disponíveis.
 
-<p>Serranime é um site interativo feito pelos alunos do programa Serratec, ele possui um vasto catálogo de animes, indo de ação até romance, que ao clique mostra ao usuário o trailer respectivo da obra selecionada, além de recomendações personalizada dos desenvolvedores, com <b>respectivas, notas, descrições</b> e o <b>cast</b> de cada obra. Possui também um sistema de login integrado.</p>
+## Funcionalidades
 
-<h2>Funcionalidades</h2>
-<li>Catálogo interativo de animes</li>
-<li>Botões funcionais</li>
-<li>Login funcional</li>
-<li>Recomendações personalizadas</li></ul>
-<li>Mostrar trailer dos animes</li></ul>
+### Login com visual "Black Piano"
 
-<h2>Desenvolvedores</h2>
+O SerraNime possui um sistema de login com um visual "Black Piano". Essa interface foi cuidadosamente projetada para oferecer uma experiência sofisticada aos usuários. O login é implementado em JavaScript, garantindo uma verificação de autenticação segura.
 
-<ul>
-<li>Ana Clara</li>
-<li>Bernardo Alves</li>
-<li>Cássio Marcolino</li></ul>
+### Área de Feedback
 
-<h2>Tecnologias utilizadas</h2>
+Valorizamos o feedback dos usuários para aprimorar continuamente nosso site. Por isso, oferecemos uma área dedicada ao envio de feedback. O formulário de feedback segue a mesma linha de estilo do login, com o visual "Black Piano". Além disso, o botão de envio possui uma animação webframe que cria um efeito de aura neon.
 
-<li>Visual Studio Code</li>
-<li>BootStrap</li>
-<li>Trello</li></ul>
-<li>API</li></ul>
+### Integração com a API do YouTube
 
-<h2>Professor</h2>
+Para reproduzir os animes, utilizamos a API do YouTube. Isso nos permite disponibilizar episódios e trailers diretamente em nosso site. Basta o usuário clicar no anime desejado para iniciar a reprodução do conteúdo relacionado.
 
+### Aba "About Us"
 
-<ul>
-<li>João Felipe Bragança</li>
-</ul>
+Na aba "About Us", você encontrará informações detalhadas sobre o projeto SerraNime. Embora a página esteja digitalizada em inglês, o conteúdo é de fácil compreensão e fornece insights sobre a equipe por trás do projeto e sua motivação para criar essa plataforma para os amantes de animes.
+
+## Como usar
+
+1. Faça o download dos arquivos do projeto.
+2. Abra o arquivo `index.html` em seu navegador.
+3. Explore o catálogo de animesaproveite a experiência do SerraNime.
+
+## Tecnologias utilizadas
+
+O SerraNime foi desenvolvido utilizando as seguintes tecnologias:
+
+- HTML5
+- CSS3
+- JavaScript
+- API do YouTube
+
+## Autor
+
+O SerraNime foi desenvolvido por uma equipe de entusiastas de animes, com o objetivo de proporcionar uma experiência excepcional para os fãs. Para saber mais sobre a equipe por trás do projeto, visite a aba "About Us" em nosso site.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
