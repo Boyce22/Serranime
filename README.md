@@ -1,32 +1,56 @@
 # SerraNime
 
-O SerraNime é um site desenvolvido com o objetivo de proporcionar a melhor experiência visual para os fãs de animes, em diversas plataformas. Nosso foco é oferecer um ambiente elegante e imersivo, onde os usuários possam desfrutar do vasto catálogo de animes disponíveis.
+O SerraNime é um site que oferece uma experiência visual cativante para os fãs de animes, desenvolvido por entusiastas de streaming. Este é nosso primeiro projeto em HTML, CSS e JavaScript, e estamos empolgados em compartilhar com vocês o resultado de nosso trabalho.
 
-## Funcionalidades
+## Visão Geral
 
-### Login com visual "Black Piano"
+Nosso principal objetivo é proporcionar um ambiente elegante e imersivo, onde os usuários possam desfrutar de uma ampla variedade de animes em diversas plataformas.
 
-O SerraNime possui um sistema de login com um visual "Black Piano". Essa interface foi cuidadosamente projetada para oferecer uma experiência sofisticada aos usuários. O login é implementado em JavaScript, garantindo uma verificação de autenticação segura.
+## Funcionalidades Destacadas
 
-### Área de Feedback
+### Login com Visual "Black Piano"
 
-Valorizamos o feedback dos usuários para aprimorar continuamente nosso site. Por isso, oferecemos uma área dedicada ao envio de feedback. O formulário de feedback segue a mesma linha de estilo do login, com o visual "Black Piano". Além disso, o botão de envio possui uma animação webframe que cria um efeito de aura neon.
+O SerraNime apresenta um sistema de login com um design sofisticado chamado "Black Piano". Cuidadosamente projetada, essa interface oferece uma experiência visual única aos usuários. A autenticação segura é garantida através da implementação em JavaScript.
+
+### Área de Feedback com Estilo "Black Piano"
+
+Valorizamos a opinião dos usuários e oferecemos uma área dedicada para enviar feedback. O formulário segue o estilo "Black Piano", proporcionando uma experiência consistente. Além disso, o botão de envio possui uma animação webframe, criando um efeito de aura neon.
 
 ### Integração com a API do YouTube
 
-Para reproduzir os animes, utilizamos a API do YouTube. Isso nos permite disponibilizar episódios e trailers diretamente em nosso site. Basta o usuário clicar no anime desejado para iniciar a reprodução do conteúdo relacionado.
+Para a reprodução de animes, utilizamos a API do YouTube. Isso nos permite disponibilizar episódios e trailers diretamente no site. Basta clicar no anime desejado para iniciar a reprodução do conteúdo relacionado.
 
 ### Aba "About Us"
 
-Na aba "About Us", você encontrará informações detalhadas sobre o projeto SerraNime. Embora a página esteja digitalizada em inglês, o conteúdo é de fácil compreensão e fornece insights sobre a equipe por trás do projeto e sua motivação para criar essa plataforma para os amantes de animes.
+Na seção "About Us", você encontrará informações detalhadas sobre o projeto SerraNime. Apesar de estar em inglês, o conteúdo é fácil de compreender e fornece insights sobre a equipe responsável pelo projeto e sua motivação.
 
-## Como usar
+## Capturas de Tela
+
+### Página Inicial
+![Home](https://i.imgur.com/PnCXIIE.png)
+
+### Plataformas
+![Plataformas]([images/info.png](https://i.imgur.com/jOqoT5f.png))
+
+### Página de Login
+![Login](https://i.imgur.com/jdaYMbV.png)
+
+### Lista de Animes
+![Anime List]([images/anime-list.png](https://i.imgur.com/SRCGzVf.png))
+
+### Recomendações
+![Recommendations](https://i.imgur.com/seUwQ1a.png)
+
+### Contate-nos
+![Contact](https://i.imgur.com/6TjKtgD.png)
+
+## Como Usar
 
 1. Faça o download dos arquivos do projeto.
 2. Abra o arquivo `index.html` em seu navegador.
-3. Explore o catálogo de animesaproveite a experiência do SerraNime.
+3. Explore o catálogo de animes e aproveite a experiência do SerraNime.
 
-## Tecnologias utilizadas
+## Tecnologias Utilizadas
 
 O SerraNime foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -37,7 +61,7 @@ O SerraNime foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Autor
 
-O SerraNime foi desenvolvido por uma equipe de entusiastas de animes, com o objetivo de proporcionar uma experiência excepcional para os fãs. Para saber mais sobre a equipe por trás do projeto, visite a aba "About Us" em nosso site.
+O SerraNime foi desenvolvido por uma equipe de entusiastas de animes, dedicados a proporcionar uma experiência excepcional para os fãs. Para conhecer mais sobre a equipe por trás do projeto, visite a seção "About Us" em nosso site.
 
 ## Licença
 
