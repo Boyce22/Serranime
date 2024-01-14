@@ -30,13 +30,13 @@ Na seção "About Us", você encontrará informações detalhadas sobre o projet
 ![Home](https://i.imgur.com/PnCXIIE.png)
 
 ### Plataformas
-![Plataformas]([images/info.png](https://i.imgur.com/jOqoT5f.png))
+![Plataformas](https://i.imgur.com/jOqoT5f.png)
 
 ### Página de Login
 ![Login](https://i.imgur.com/jdaYMbV.png)
 
 ### Lista de Animes
-![Anime List]([images/anime-list.png](https://i.imgur.com/SRCGzVf.png))
+![Anime List](https://i.imgur.com/SRCGzVf.png)
 
 ### Recomendações
 ![Recommendations](https://i.imgur.com/seUwQ1a.png)
